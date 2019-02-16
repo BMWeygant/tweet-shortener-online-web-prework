@@ -21,6 +21,5 @@ def dictionary
       else
         word
       end
-    end
-    string.join(" ")
+    end.join(" ")
   end
