@@ -40,8 +40,7 @@ def dictionary
   end
 
 def shortened_tweet_truncator(string)
-word_substituter(string)
 if string.length > 140
- string[0...139]
+  puts string[0...139]
 end
 end
