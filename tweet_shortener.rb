@@ -30,3 +30,13 @@ def dictionary
       puts word_substituter(word)
     end
   end
+
+  def selective_tweet_shortener(array)
+    array.each do |tweet|
+      if tweet.length > 140
+        bulk_tweet_shortener
+      else
+        tweet
+    end
+  end
+  end
