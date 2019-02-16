@@ -26,6 +26,6 @@ def dictionary
   end
 
   def bulk_tweet_shortener(array)
-    puts array << word_substituter
+    array << puts word_substituter
 
   end
