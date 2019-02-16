@@ -38,4 +38,3 @@ def dictionary
         string
     end
   end
-  end
