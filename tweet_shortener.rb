@@ -22,4 +22,4 @@ def dictionary
         word
       end
     end.join(" ")
-  end
+    enf
