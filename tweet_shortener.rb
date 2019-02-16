@@ -1,4 +1,5 @@
 # Write your code here.
+require 'pry'
 def dictionary
   shorthand = {
      "hello" => "hi",
@@ -16,6 +17,7 @@ def dictionary
 
   def word_substituter(string)
     string.split.collect do |word|
+      binding.pry
       if dictionary.keys.include?(word.downcase)
         word = dictionary[word.downcase]
       else
