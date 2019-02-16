@@ -41,6 +41,7 @@ def dictionary
 
 def shortened_tweet_truncator(string)
 if string.length > 140
-  puts string[1...140]
+  string[0...139]
+elsestring
 end
 end
