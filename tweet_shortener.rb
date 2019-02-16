@@ -31,12 +31,11 @@ def dictionary
     end
   end
 
-  def selective_tweet_shortener(array)
-    array.each do |tweet|
-      if tweet.length > 140
-        bulk_tweet_shortener
+  def selective_tweet_shortener(string)
+      if string.length > 140
+        word_substituter
       else
-        tweet
+        string
     end
   end
   end
