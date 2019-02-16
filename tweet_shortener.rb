@@ -38,3 +38,5 @@ def dictionary
         string
     end
   end
+
+  
