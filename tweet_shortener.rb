@@ -19,7 +19,7 @@ def dictionary
     string.split.collect do |word|
       #binding.pry
       if dictionary.keys.include?(word.downcase)
-        word = dictionary.values[word.downcase]
+        word = dictionary.values
       else
         word
       end
