@@ -40,7 +40,7 @@ def dictionary
   end
 
 def shortened_tweet_truncator(string)
-if selective_tweet_shortener(string.length) > 140
+if selective_tweet_shortener(string) > 140
   puts string[0...140]
 end
 end
