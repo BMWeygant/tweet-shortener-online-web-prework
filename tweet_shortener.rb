@@ -16,8 +16,8 @@ def dictionary
 
   def word_substituter(string)
     string.split.collect do |word|
-      if dictionary.keys.include?(word)
-        word = dictionary[word]
+      if dictionary.keys.include?(word.downcase)
+        word = dictionary[word.downcase]
       else
         word
       end
